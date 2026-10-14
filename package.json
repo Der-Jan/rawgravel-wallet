@@ -1,0 +1,19 @@
+{
+  "name": "rawgravel-wallet",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/bundle.mjs",
+    "test": "npm run build && node --test tests/pass.test.js",
+    "start": "node scripts/server.mjs"
+  },
+  "dependencies": {
+    "node-forge": "^1.3.1",
+    "fflate": "^0.8.2",
+    "qrcode": "^1.5.4"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0"
+  },
+  "version": "1.0.0"
+}

@@ -1,0 +1,15 @@
+node_modules/
+worker/index.js
+secrets/
+.env
+.env.*
+!.env.example
+*.p12
+*.pfx
+*.pem
+*.key
+*.cer
+*.pkpass
+*.tar.gz
+*.png
+.DS_Store
